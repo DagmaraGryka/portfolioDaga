@@ -1,0 +1,21 @@
+@import "../../../styles/global.scss";
+
+
+.background {
+    background: url(../../../images/lines.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    
+    background-position: center center;
+  }
+
+.text {
+    font-size: 40px;
+    p {
+        text-align: center;
+        font-size: 45px;
+    }
+}
+
