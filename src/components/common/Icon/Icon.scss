@@ -1,0 +1,24 @@
+@import "../../../styles/global.scss";
+
+.links {
+  
+}
+    
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+  }
+
+  ul li {
+    display: inline-flex; }
+    
+  i {
+    font-size: 60px;
+    color: #fff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  margin:0 10px;
+  }

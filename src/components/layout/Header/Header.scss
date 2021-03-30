@@ -1,3 +1,22 @@
 @import "../../../styles/global.scss";
 
+.navbar {
+  width: 100%;
+  font-size: 30px;
+  background-color: $color-dark;
+  color: $color-light;
+  display: inline-flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
 
+.layout {
+  display: inline-flex;
+  width: 100%;
+}
+  
+.navigation {
+    font-size: 50px;
+    
+}

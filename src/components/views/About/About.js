@@ -12,7 +12,7 @@ const About = () => (
     </p>
     <p>
       I have been always interested in programming. Just a few mounths ago I have decided 
-      it is time to achive this goal. I have done Bootcamp which is around 5 months. 
+      it is time to achive this goal and become Frontend Developer. I have done Bootcamp which is around 5 months. 
       It gave me basic knowlage of the most popular languages and technologies. 
       And this is only the beggining of the journy.  
     </p>
@@ -22,7 +22,7 @@ const About = () => (
       I am taking courses to get better in JS, React and other technologies. 
     </p>
     </div>
-
+      
     <div>
 
     </div>

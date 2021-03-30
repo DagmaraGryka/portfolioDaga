@@ -1,11 +1,12 @@
 import React from 'react';
 import './HomePage.scss';
 import Typical from 'react-typical'
+//import About from '../About/About'
 
 
 const HomePage = () => (
-  <main className='background text'>
-    <div className='container'>
+  <main className='background'>
+    <div className='container text'>
       <h1>Hi, I'm Dagmara.</h1>
       <h2>I am Frontend Developer</h2>
       <p>
