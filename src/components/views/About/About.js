@@ -22,10 +22,6 @@ const About = () => (
       I am taking courses to get better in JS, React and other technologies. 
     </p>
     </div>
-      
-    <div>
-
-    </div>
   </section>
   
   

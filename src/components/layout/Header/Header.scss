@@ -1,11 +1,11 @@
 @import "../../../styles/global.scss";
 
 .navbar {
-  width: 100%;
-  font-size: 30px;
+  
+  
   background-color: $color-dark;
   color: $color-light;
-  display: inline-flex;
+  width: 100% ;
   align-items: center;
   position: sticky;
   top: 0;
@@ -13,10 +13,19 @@
 
 .layout {
   display: inline-flex;
-  width: 100%;
+  width: inherit;
+  justify-content: space-between;
+  align-items: center;
 }
   
 .navigation {
-    font-size: 50px;
-    
+    font-size: 40px;
+    margin: 0 60px;
+}
+
+.nav {
+    color: $color-light;
+    padding: 0 20px;
+    text-decoration: none;
+    display: inline-flex;
 }

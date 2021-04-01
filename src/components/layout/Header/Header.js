@@ -10,14 +10,15 @@ import './Header.scss';
 class Header extends React.Component {
     render(){
       return ( 
-        <header  className=' navbar '>
-          <div className=' container layout'>
-            <Icon/>
-
+        <header  className='navbar '>
+          <div className='layout'>
+            <div>
+              <Icon/>
+            </div>
             <nav className="navigation">
-              <NavLink exact to='/'>Home</NavLink>
-              <NavLink exact to='/About'>About</NavLink>
-              <NavLink exact to='/Projects'>Projects</NavLink>
+              <NavLink className="nav" exact to='/'>Home</NavLink>
+              <NavLink className="nav" exact to='/About'>About</NavLink>
+              <NavLink className="nav" exact to='/Projects'>Projects</NavLink>
             </nav>
           </div>
         </header>

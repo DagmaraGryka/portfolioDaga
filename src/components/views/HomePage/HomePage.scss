@@ -1,21 +1,3 @@
 @import "../../../styles/global.scss";
 
 
-.background {
-  background: url(../../../images/bulb.png);
-  width: 100%;
-  height: 90%;
-  position: absolute;
-  background-size: cover;
-  background-position: center center;
-}
-
-.text {
-  color: $color-light;
-  font-size: 40px;
-  margin: 20px 0;
-    p {
-      font-size: 45px;
-    }
-}
-

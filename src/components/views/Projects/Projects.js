@@ -9,44 +9,33 @@ const Projects = () => (
   <section className='container'>
       <h2> Projects i took part in </h2>
       
-    <div className='box'>
+      <div className='box'>
         <div className='imgBox'>
-        <img src={ReactApp} alt="REACT"/>
+          <img src={ReactApp} alt="REACT"/>
+          <a href="https://github.com/DagmaraGryka/My-first-React-app"><i class="fab fa-github-square"></i></a>
         </div>
         <div>
-            <h4>REACT APP</h4>
-            <p>cos o projekcie </p>
-            <a href="https://github.com/DagmaraGryka/My-first-React-app"></a>
-        </div>
-        <div>
-            <p>cos o projekcie</p>
+          <h4>REACT APP</h4>
+          <p>cos o projekcie </p>
         </div>
       
+        <div className='imgBox'>
+          <img src={pizzeria} alt="pizzeria"/>
+          <a href="https://github.com/DagmaraGryka/project-pizzeria"><i class="fab fa-github-square"></i></a>
+        </div>
+        <div>
+          <h4>PIZZERIA</h4>
+          <p>cos o projekcie </p>
+        </div>
 
-      <div>
-      <img src={pizzeria} alt="pizzeria"/>
-        <div>
-            <h4>PIZZERIA</h4>
-            <p>cos o projekcie </p>
-            <a href="https://github.com/DagmaraGryka/project-pizzeria"></a>
+        <div className='imgBox'>
+          <img src={travel} alt="travel"/>
+          <a href="https://github.com/DagmaraGryka/travel-agency"><i class="fab fa-github-square"></i></a>
         </div>
         <div>
-            <p>cos o projekcie</p>
+          <h4>REACT APP</h4>
+          <p>cos o projekcie </p>
         </div>
-      </div>
-
-      <div>
-      <img src={travel} alt="travel"/>
-        <div>
-            <h4>REACT APP</h4>
-            <p>cos o projekcie </p>
-            <a href="https://github.com/DagmaraGryka/travel-agency"></a>
-        </div>
-        <div>
-            <p>cos o projekcie</p>
-        </div>
-      </div>
-
     </div>
   </section>
 );
